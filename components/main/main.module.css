@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+}
+
+.cardGrid {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.gridItemWrapper {
+    width: 20%;
+    padding: 10px;
+}
+
+.gridItem {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.gridItem:hover {
+    border-color: #aaa;
+}
+
+.itemLogo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rightTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.rightItemWrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rightItem {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.rightItem:hover {
+    text-decoration: underline;
+}
+
+.rightItemIcon {
+    width: 16px;
+    margin-right: 2px;
+}

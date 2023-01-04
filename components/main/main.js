@@ -7,6 +7,7 @@ export default function Main() {
     <div className={styles.container}>
         <div className={styles.cardGrid}>
             <div className={styles.gridItemWrapper}>
+                <Image className={styles.star} width={20} height={20} src="/icons/star.svg" alt="buildspace"/>
                 <div className={styles.gridItem}>
                     <Image className={styles.itemLogo} width={60} height={60} src="/images/buildspace.webp" alt="buildspace"/>
                     <div className={styles.right}>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <>
           <Head>
-              <title>My</title>
+              <title>Collection</title>
           </Head>
           <Layout>
 
